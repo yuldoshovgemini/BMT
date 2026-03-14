@@ -32,3 +32,61 @@ button {
   border: none;
   outline: none;
 }
+
+/* nav style start*/
+.nav_content_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 1280px;
+  height: 60px;
+  background-color: black;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav_list_item_one {
+  width: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.nav_list_item_one::before {
+  content: url(picture/menu.png);
+}
+
+.nav_list_item_one::after {
+  content: url(picture/Vector\ 11.png);
+}
+
+.nav_list_item_one:hover {
+  background-color: #00B4DC;
+  padding: 21px 0;
+
+}
+
+.nav_list_item {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+.nav_list_item:hover {
+    color: #00B4DC;
+}
+
+.nav_inp_item {
+  width: 280px;
+  padding: 6px;
+  
+}
+
+
+
+/* nav style end */
