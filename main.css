@@ -33,7 +33,17 @@ button {
   outline: none;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
 /* nav style start*/
+.nav {
+   background-color: black;
+}
+
 .nav_content_wrapper {
   display: flex;
   justify-content: space-around;
@@ -41,7 +51,6 @@ button {
   margin-bottom: 50px;
   width: 1280px;
   height: 60px;
-  background-color: black;
 }
 
 .nav_list {
@@ -93,11 +102,6 @@ button {
 
 /* footer start */
 
-body{
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
 .footer {
   background: #111;
   color: #ccc;
@@ -114,6 +118,9 @@ body{
   width: 18%;
 }
 
+.footer-card p {
+  margin-bottom: 1rem;
+}
 
 .logo h2 {
   color: #fff;
@@ -145,8 +152,12 @@ body{
 .imblim a {
   display: inline-block;
   margin-right: 10px;
-  color: #fff;
   text-decoration: none;
+}
+
+.imblim a img {
+  width: 1rem;
+  height: 1rem;
 }
 
 .Email form {
