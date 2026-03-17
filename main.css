@@ -78,15 +78,102 @@ button {
 }
 
 .nav_list_item:hover {
-    color: #00B4DC;
+  color: #00B4DC;
 }
 
 .nav_inp_item {
   width: 280px;
   padding: 6px;
-  
+
 }
 
 
 
 /* nav style end */
+
+/* footer start */
+
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background: #111;
+  color: #ccc;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+  flex-wrap: wrap;
+}
+
+.footer-card {
+  width: 18%;
+}
+
+
+.logo h2 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-card ul li {
+  margin-bottom: 8px;
+}
+
+.footer-card ul li a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.footer-card ul li a:hover {
+  color: #fff;
+}
+
+.logo p {
+  font-size: 14px;
+}
+
+.imblim a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Email form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.Email input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 70%;
+}
+
+.Email button {
+  padding: 10px 15px;
+  border: none;
+  background: #19b6d2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 80px;
+  font-size: 14px;
+}
+/* footer end */
