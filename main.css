@@ -103,7 +103,7 @@ body{
   color: #ccc;
 }
 
-.container {
+.footer_container {
   display: flex;
   justify-content: space-between;
   padding: 50px 80px;
