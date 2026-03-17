@@ -92,7 +92,8 @@ button {
 /* nav style end */
 
 /* footer start */
-body {
+
+body{
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -113,7 +114,7 @@ body {
   width: 18%;
 }
 
-.footer-card h3,
+
 .logo h2 {
   color: #fff;
   margin-bottom: 15px;
